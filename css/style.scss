@@ -9,6 +9,9 @@ article {
     box-sizing: border-box;
   }
 }
+.fake_style{
+  direction: adjust-color();
+}
   .row1 div{
     width: 33.33%;
     border-right: 1px solid black;
@@ -18,8 +21,12 @@ article {
       border: none;
     }
   }
-.row2 div{
-    background-color: aliceblue;
-    height: 100px;
-    border-right: 1px solid black;
-    width: 50%;
+.row2 div {
+  background-color: aliceblue;
+  height: 100px;
+  border-right: 1px solid black;
+  width: 50%;
+}
+.added{
+
+}
